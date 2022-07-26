@@ -62,7 +62,7 @@ public class SpawnManager : MonoBehaviour
     {
         while (_gameOver == false)
         {
-            yield return new WaitForSeconds(Random.Range(.5f, 2f));
+            yield return new WaitForSeconds(Random.Range(1f, 4f));
             GameObject enemy = RequestEnemy();
             enemy.transform.position = _spawnEnemy.transform.position;
         }

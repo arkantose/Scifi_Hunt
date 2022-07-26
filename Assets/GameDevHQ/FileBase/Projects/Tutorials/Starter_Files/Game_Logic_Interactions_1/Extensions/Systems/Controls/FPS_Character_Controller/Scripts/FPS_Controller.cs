@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Windows.Input;
 using UnityEngine;
+
 
 namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
 {
@@ -59,8 +61,11 @@ namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
 
             FPSController();
             CameraController();
-            HeadBobbing(); 
+            HeadBobbing();
+
         }
+
+
 
         void FPSController()
         {
